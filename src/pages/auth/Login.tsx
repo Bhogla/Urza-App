@@ -53,9 +53,7 @@ const Login: React.FC = () => {
       <div className="w-full max-w-md">
         {/* Logo */}
         <div className="text-center mb-8">
-          <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
-            <img src="/src/assets/urza_logo.svg" alt="Urza Rewards Logo" className="h-8 w-auto" />
-          </div>
+          <div className="w-20 h-20 bg-white rounded-logo flex items-center justify-center mx-auto mb-4 shadow-lg bg-logo-login"></div>
           <h1 className="text-3xl font-bold text-white mb-2">Urza Rewards</h1>
           <p className="text-white/90">Start earning rewards today!</p>
         </div>
