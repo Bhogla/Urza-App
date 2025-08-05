@@ -82,11 +82,22 @@
 
 /* Gradient backgrounds */
 .gradient-primary {
-  background: linear-gradient(135deg, #006af5 0%, #1cdb98 100%);
+  background: linear-gradient(to right, #006af5, #32a6e9);
 }
 
 .gradient-secondary {
-  background: linear-gradient(135deg, #FEF3C7 0%, #D1FAE5 100%);
+  background: linear-gradient(to right, #f0f4f8, #d9e2ec);
+}
+
+.bg-logo-login {
+  background-image: url('/src/assets/urza_logo.svg');
+  background-size: 80%; /* Adjust as needed */
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.rounded-logo {
+  border-radius: 10px;
 }
 
 .to-secondary {
